@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+@media (min-width: 1280px){
+  .cart{
+    background-color: white;
+    width: 800px;
+    margin-left: 100px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .cart {
+    background-color: white;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
